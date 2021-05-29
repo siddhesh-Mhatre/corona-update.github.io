@@ -1,0 +1,143 @@
+/* for nav-bar */
+
+.navbar-brand img {
+    vertical-align: middle;
+    height: 20px;
+    height: 44px;
+    width: 42px;
+}
+
+.bg-dark {
+  background: linear-gradient(to top left, #0e0d0d 0%, #607d8b 100%);
+}
+
+.d-flex img {
+    height: 54px;
+    width: 44px;
+}
+
+
+/*------------------------- */
+
+
+/*----------- Info section ------------*/
+
+.info {
+    padding: 20px;
+}
+
+.info .small-info {
+
+    align-items: center;
+    line-height: 26px;
+    color: white;
+    border-radius: 12px;
+background: linear-gradient(to top left, #0e0d0d 0%, #607d8b 100%);
+}
+
+.info .small-info .whatCorona {
+    padding: 30px;
+}
+
+.card{
+        box-shadow: 0 0 20px 0px rgb(0 0 0 / 79%);
+}
+
+/*--------------------*/
+
+
+/*----------- SAFETY          ---------   */
+
+.safety {
+    flex-basis: 50%;
+    min-width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tips {
+    /* display: flex; */
+    background: white;
+    width: 300px;
+    height: 576px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    /* margin: auto; */
+box-shadow: 0 0 20px 0px rgb(0 0 0 / 93%);
+    overflow: hidden;
+}
+
+.form-btn {
+    display: inline-block;
+}
+
+#Indicator {
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translate(100px);
+    transition: transform 1s;
+}
+
+.qoutes{
+        box-shadow: 0 0 20px 0px rgb(0 0 0 / 79%);
+}
+
+#over-view {
+    position: absolute;
+    left: -300px;
+    background: #d4d1ca;
+    width: 100%;
+    padding: 4px;
+}
+
+#Prev-ation {
+    position: absolute;
+    left: 0;
+    background: #9cb98f;
+    padding: 4px;
+    line-height: 41px;
+}
+
+.txtlft {
+    text-align: left !important;
+}
+
+h6 {
+    font-size: 1rem;
+    font-size: 12px;
+}
+
+
+/* utilities */
+
+.flex {
+    display: flex;
+}
+
+
+
+@media (max-width:575.98px) {
+    body {
+        background-color: gray;
+    }
+    .info .small-info {
+        flex-direction: column;
+    }
+    .coronaGif img {
+        width: 100%;
+    }
+    .safety {
+        flex-direction: column;
+    }
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .qoutes img {
+        width: 302px;
+    }
+}
